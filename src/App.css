@@ -25,7 +25,11 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: black !important;
+}
+a {
+  color: black !important;
+  text-decoration: none !important;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +39,47 @@
   to {
     transform: rotate(360deg);
   }
+}
+.product-page{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px
+  
+}
+.product-page-atc{
+  background-color: #282c34;
+  color: white;
+  padding: 10px 86px;
+  cursor: pointer;
+  font-weight: 900px;
+  font-size: 20px;
+}
+.product-page-atc:hover{
+  background-color: white;
+  color: black;
+  font-weight: 900px;
+  font-size: 20px; 
+}
+.product-page-info{
+  margin-top: 30px;
+}
+.cust-p{
+  font-size: 13px;
+}
+.custom-paymnet-icons{
+  display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 10px;;
+}
+.align-items-center{
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .product-page{
+  flex-direction: column;
+  gap: 8px
+}
 }

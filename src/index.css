@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.view-all-button {
+  padding: 10px 20px;
+  background-color: black; /* Black background */
+  color: white; /* White text */
+  border: 2px solid black; /* Black border */
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Transition for smooth effect */
+  text-decoration: none; /* Removes underline */
+  font-size: 16px; /* Adjust font size as needed */
+}
+
+.view-all-button:hover {
+  background-color: white; /* White background on hover */
+  color: black; /* Black text on hover */
+  transform: scale(1.05); /* Slightly increases the size on hover */
+}
+
+/* Global Styles for Headings and Paragraphs */
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 42px;
+  font-weight: 700;
+  line-height: 38px;
+  color: rgb(0, 0, 0);
+}
+
+/* Paragraphs */
+p {
+ 
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(0, 0, 0);
+}

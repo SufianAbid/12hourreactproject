@@ -1,0 +1,5 @@
+.custom-fluid-image {
+    width: 100% !important; /* Set width to 100% */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

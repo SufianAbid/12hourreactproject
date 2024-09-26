@@ -1,0 +1,45 @@
+.container {
+    max-width: 600px; /* Set max width for better readability */
+    margin: auto;
+  }
+  
+  .faq-item {
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden; /* Prevents overflow when collapsing */
+    transition: max-height 0.2s ease; /* Smooth transition */
+  }
+  
+  .faq-question {
+    background-color: #EAEEEF; /* Header background color */
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .faq-answer {
+    padding: 15px;
+    background-color: #fff; /* Answer background color */
+    animation: fadeIn 0.3s ease; /* Fade-in animation */
+  }
+  
+  .arrow {
+    transition: transform 0.2s ease;
+  }
+  
+  .arrow.open {
+    transform: rotate(180deg); /* Rotate arrow when open */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

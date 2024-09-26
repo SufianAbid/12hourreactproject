@@ -1,0 +1,74 @@
+.footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #EAEEEF; /* Updated background color */
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .footer-link {
+    color: #333; /* Change link color to a darker shade for contrast */
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #333; /* Light color on hover */
+    font-weight: 600;
+  }
+  
+  .footer-logo {
+    margin-bottom: 10px;
+  }
+  
+  .footer-brand-intro {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .footer-subscribe {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .footer-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .footer-button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .footer-button:hover {
+    background-color: #555; /* Darker shade on hover */
+  }
+  
+  .footer-payment-icons {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #333; /* Change text color to match the footer link color */
+  }
+  

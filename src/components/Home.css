@@ -1,0 +1,140 @@
+/* Banner Styling */
+.banner {
+    background: url('https://via.placeholder.com/1200x400') center/cover no-repeat;
+    /* height: 400px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .banner-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Video Background */
+  .video-bg-section {
+    position: relative;
+    height: 400px;
+  }
+  
+  .video-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .video-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .view-all-button {
+    padding: 10px 20px !important;
+    background-color: black !important; /* Black background */
+    color: white !important; /* White text */
+    border: 2px solid black !important; /* Black border */
+    border-radius: 5px !important;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s !important; /* Transition for smooth effect */
+    text-decoration: none !important; /* Removes underline */
+    font-size: 16px !important; /* Adjust font size as needed */
+    padding: 15px 90px !important;
+  }
+  
+  .view-all-button:hover {
+    background-color: white !important; /* White background on hover */
+    color: black !important; /* Black text on hover */
+    transform: scale(1.05) !important; /* Slightly increases the size on hover */
+    border: 2px solid black !important; /* Black border */
+  }
+  
+ 
+  .image-text-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px; /* Adjust as needed */
+  }
+  
+  .custom-image {
+    height: 200px; /* Set the desired height */
+    object-fit: cover; /* Ensure the image fits well */
+  }
+  
+  .detailed-description {
+    margin: 15px 0; /* Margin between paragraphs */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .image-text-section {
+      flex-direction: column; /* Stack image and text on mobile */
+    }
+    
+    .custom-image {
+      height: auto; /* Allow the image to resize on mobile */
+    }
+  }
+  
+  /* Bloom Sky Sportswear Section */
+.bloom-sportswear-section {
+  position: relative;
+  height: 400px;
+  background-image: url('https://www.adidas.ae/dw/image/v2/BFNL_PRD/on/demandware.static/-/Library-Sites-AdidasSharedLibrary/default/dwe5e8a71a/MENA_Local_Activations/em-sa_SKYBLOOMPACK_hp-mh-d.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.bloom-sportswear-content {
+ 
+  color: #fff;
+  padding: 20px;
+  max-width: 400px;
+}
+
+.bloom-sportswear-content h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.bloom-sportswear-content p {
+  font-size: 1.2rem;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .bloom-sportswear-section {
+    background-image: url('https://www.adidas.ae/dw/image/v2/BFNL_PRD/on/demandware.static/-/Library-Sites-AdidasSharedLibrary/default/dwe87ddcd8/MENA_Local_Activations/em-sa_SKYBLOOMPACK_hp-mh-m.jpg'); /* Replace with your mobile image */
+  }
+  
+  .bloom-sportswear-content {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+@media (max-width:767px ){
+
+.clothing-collection{
+  margin-bottom: 30px;
+}
+}
+
+.bloom-sportswear-section{
+  margin-bottom: 30px;
+ 
+}
+
+a {
+  color: black !important;
+  text-decoration: none !important;
+}
